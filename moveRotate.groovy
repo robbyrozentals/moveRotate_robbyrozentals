@@ -6,14 +6,14 @@ CSG cube = new Cube(size,// X dimention
 			).toCSG()
 		
 CSG movedCube = cube
-			.movex(10)
-			.movey(20)
-			.movez(30)
+			.movex(8)
+			.movey(10)
+			.movez(50)
 //rotate
 movedCube = movedCube
-			.rotx(15)
+			.rotx(20)
 			.roty(20)
-			.rotz(30)
+			.rotz(20)
 //set colors
 cube.setColor(javafx.scene.paint.Color.CYAN);
 
